@@ -60,7 +60,7 @@ class Student
  
     DB[:conn].execute(sql, name).map do |row|
       self.new_from_db(row)
-    end.first #first element of the array
+    end
   end
   
   def update
