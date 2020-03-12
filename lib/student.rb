@@ -47,5 +47,15 @@ class Student
   end
   
   def self.new_from_db(student_array)
+    
+  end
+  
+  def self.find_by_name
+    
+  end
+  
+  def update
+    
+  end
 
 end
