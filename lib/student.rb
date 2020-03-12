@@ -46,7 +46,7 @@ class Student
     student
   end
   
-  def self.new_from_db(student_array)
+  def self.new_from_db(array)
     sql = <<-SQL
       SELECT *
       FROM students
