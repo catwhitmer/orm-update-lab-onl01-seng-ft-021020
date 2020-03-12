@@ -45,5 +45,7 @@ class Student
     student.save
     student
   end
+  
+  def self.new_from_db(student_array)
 
 end
